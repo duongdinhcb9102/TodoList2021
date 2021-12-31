@@ -4,7 +4,7 @@ document.getElementById('todo1').onclick = function(e)
   
   if (this.checked)
   {
-    textTodo.innerHTML = "  ăn 3 điểm giữa kỳ<del>không</del>";
+    textTodo.innerHTML = "  Ăn 3 điểm giữa kỳ<del>không</del>";
   }
   else
   {
@@ -47,7 +47,7 @@ document.getElementById('todo4').onclick = function(e)
 
   if (this.checked)
   {
-    textTodo.innerHTML = "<del>u</del> Già";
+    textTodo.innerHTML = "</del> Già <del> u ";
   }
   else
   {
