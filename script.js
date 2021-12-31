@@ -61,10 +61,10 @@ document.getElementById('todo5').onclick = function(e)
 
   if (this.checked)
   {
-    textTodo.innerHTML = "Sống <del>cuộc sống an nhàn</del>";
+    textTodo.innerHTML = "Học buổi có buối không <del> Không được </del>";
   }
   else
   {
-    textTodo.innerHTML = "Sống cuộc sống an nhàn";
+    textTodo.innerHTML = "Không được Học bủôi có bủôi không";
   }
 }
