@@ -19,11 +19,11 @@ document.getElementById('todo2').onclick = function(e)
 
   if (this.checked)
   {
-    textTodo.innerHTML = "Tiết kiệm 200.000<del>.000</del>";
+    textTodo.innerHTML = "Tiết kiệm 300.000<del>.000</del>";
   }
   else
   {
-    textTodo.innerHTML = "Tiết kiệm 200.000.000";
+    textTodo.innerHTML = "Tiết kiệm 300.000.000";
   }
 }
 
