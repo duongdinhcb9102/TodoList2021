@@ -4,11 +4,11 @@ document.getElementById('todo1').onclick = function(e)
   
   if (this.checked)
   {
-    textTodo.innerHTML = "Mua ô <del>tô</del>";
+    textTodo.innerHTML = "Không ăn 3 điểm giữa kỳ<del>không</del>";
   }
   else
   {
-    textTodo.innerHTML = "Mua ô tô";
+    textTodo.innerHTML = "Không ăn 3 điểm giữa kỳ";
   }
 }
 
